@@ -67,7 +67,7 @@ Puoi utilizzare l'eseguibile compilato tramite GitHub Actions (se configurato) o
 
 Il progetto è strutturato per essere leggero e privo di configurazioni esterne:
 
-* `main.py` 🧠: Il cuore dell'applicazione. Contiene la logica della GUI (Tkinter), la gestione del database SQLite e il motore di generazione stampe.
+* `Rpo_Zero_v2.0.0.py` 🧠: Il cuore dell'applicazione. Contiene la logica della GUI (Tkinter), la gestione del database SQLite e il motore di generazione stampe.
 * `requirements.txt` 📋: Elenco delle librerie necessarie (come `pypdf` per la manipolazione dei file).
 * `np_zero.db` 💾: Database locale creato automaticamente al primo avvio.
 * `NP_STAMPE/` 📂: Cartella generata automaticamente dove vengono archiviati i file HTML e PDF esportati.
