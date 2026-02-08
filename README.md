@@ -3,10 +3,10 @@
 # 🏗️ NP Zero
 ### Gestionale Analisi Nuovi Prezzi per l'Edilizia
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python)
+![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python)
 ![GUI](https://img.shields.io/badge/Interface-Tkinter-orange?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-v1.0.0_Stable-purple?style=for-the-badge)
+![License](https://img.shields.io/badge/License-GPLv3-green?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-v1.1.0_Multi--User-purple?style=for-the-badge)
 
 **Basta fogli di calcolo complessi e analisi disorganizzate.** NP Zero è lo strumento open-source definitivo per tecnici e professionisti dell'edilizia. Crea, calcola e gestisci i tuoi Nuovi Prezzi (NP) in modo professionale, con generazione automatica di analisi prezzi in PDF.
 
@@ -34,7 +34,7 @@ Questo software automatizza il calcolo dei costi diretti e indiretti, gestisce l
 * 📈 **Calcolo Automatico SG & Utili:** Gestione dinamica delle Spese Generali (default 17%) e Utili d'Impresa (default 10%), con ricalcolo immediato del prezzo finale.
 * 📄 **Esportazione HTML e PDF:** Generazione di analisi prezzi professionali in formato HTML, convertibili massivamente in PDF (singoli o uniti) pronti per l'allegato tecnico.
 * 🔄 **Smart Import:** Funzione per importare e duplicare NP da altri progetti, risparmiando tempo sulle lavorazioni ricorrenti.
-* 📊 **Riepilogo Incidenze:** Calcolo automatico delle incidenze percentuali di manodopera e sicurezza, fondamentali per la contabilità lavori.
+* 📊 **Riepilogo Incidenze:** Calcolo automatico delle incidenze percentuali di manodopera e sicurezza, fondamentali per la redazione dei progetti.
 * 💾 **Database Locale:** Massima privacy e portabilità. Tutti i dati sono salvati in un database SQLite locale sul tuo PC.
 
 ## 🚀 Installazione
@@ -49,7 +49,7 @@ Puoi utilizzare l'eseguibile compilato tramite GitHub Actions (se configurato) o
 
 1.  **Clona il repository** (o scarica lo zip):
     ```bash
-    git clone [https://github.com/tuo-username/np-zero.git](https://github.com/tuo-username/np-zero.git)
+    git clone [https://github.com/piano-zero/np-zero.git](https://github.com/piano-zero/np-zero.git)
     cd np-zero
     ```
 
@@ -60,7 +60,7 @@ Puoi utilizzare l'eseguibile compilato tramite GitHub Actions (se configurato) o
 
 3.  **Avvia l'applicazione:**
     ```bash
-    python main.py
+    python Rpo_Zero_v2.0.0.py
     ```
 
 ## 🛠 Struttura del Progetto
