@@ -29,13 +29,13 @@ jobs:
     - name: Verifica sintassi (Linting)
       run: |
         # Verifica che il file main.py sia scritto correttamente
-        python -m py_compile main.py
+        python -m py_compile Rpo_Zero_v2.0.0.py
 
     - name: Creazione Eseguibile (Build)
       run: |
         # Genera l'eseguibile unico (-F) senza finestra console (-w)
         # Assicurati che il tuo file si chiami effettivamente main.py
-        pyinstaller -F -w --name "GestioneNuoviPrezzi" main.py
+        pyinstaller -F -w --name "GestioneNuoviPrezzi" Rpo_Zero_v2.0.0.py
 
     - name: Archiviazione Artefatto
       uses: actions/upload-artifact@v4
