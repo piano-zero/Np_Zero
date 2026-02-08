@@ -966,4 +966,5 @@ if __name__ == "__main__":
     # che la finestra principale sia già visibile
     app.after(100, check_pypdf_dependency)
     
+
     app.mainloop()
