@@ -27,13 +27,11 @@ jobs:
 
     - name: Verifica sintassi (Linting)
       run: |
-        # Aggiornato con il nome del file corretto
         python -m py_compile Np_Zero_2.0.0.py
 
     - name: Creazione Eseguibile (Build)
       run: |
-        # Inserito il nome del file corretto e l'hidden-import per pypdf
-       pyinstaller -F -w --hidden-import pypdf --hidden-import openpyxl --name "GestioneNuoviPrezzi" Np_Zero_2.0.0.py
+        pyinstaller -F -w --hidden-import pypdf --hidden-import openpyxl --name "GestioneNuoviPrezzi" Np_Zero_2.0.0.py
 
     - name: Archiviazione Artefatto
       uses: actions/upload-artifact@v4
