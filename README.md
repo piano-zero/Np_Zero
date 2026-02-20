@@ -67,7 +67,7 @@ Puoi utilizzare l'eseguibile compilato tramite GitHub Actions (se configurato) o
 
 Il progetto è strutturato per essere leggero e privo di configurazioni esterne:
 
-* `Rpo_Zero_v2.0.0.py` 🧠: Il cuore dell'applicazione. Contiene la logica della GUI (Tkinter), la gestione del database SQLite e il motore di generazione stampe.
+* `Np_Zero_vx.y.z.py` 🧠: Il cuore dell'applicazione. Contiene la logica della GUI (Tkinter), la gestione del database SQLite e il motore di generazione stampe.
 * `requirements.txt` 📋: Elenco delle librerie necessarie (come `pypdf` per la manipolazione dei file).
 * `np_zero.db` 💾: Database locale creato automaticamente al primo avvio.
 * `NP_STAMPE/` 📂: Cartella generata automaticamente dove vengono archiviati i file HTML e PDF esportati.
@@ -76,12 +76,12 @@ Il progetto è strutturato per essere leggero e privo di configurazioni esterne:
 
 1.  **Crea Progetto:** Inizia dalla Tab "Progetti" inserendo i dati del tuo intervento o cantiere.
 2.  **Definisci NP:** Nella Tab "Elenco NP", crea una nuova voce di prezzo associata al progetto selezionato.
-3.  **Dettaglio Costi:** Entra in "Modifica NP" per inserire le singole voci (ore uomo, materiali, noli). Il software sommerà tutto e aggiungerà automaticamente le aliquote SG e Utili.
+3.  **Dettaglio Costi:** Entra in "Modifica NP" per inserire le singole voci (manodopera, prodotti). Il software sommerà tutto e aggiungerà automaticamente le aliquote SG e Utili.
 4.  **Esporta:** Vai nella Tab "Stampe" per generare l'HTML e successivamente nella Tab "Convertitore PDF" per ottenere i documenti finali.
 
 ## 🤝 Contribuire
 
-Le idee per migliorare NP Zero sono sempre benvenute! Se vuoi aggiungere una funzionalità (es. esportazione Excel):
+Le idee per migliorare NP Zero sono sempre benvenute! Se vuoi aggiungere una funzionalità:
 
 1.  Fai un **Fork** del progetto.
 2.  Crea un branch per la tua modifica (`git checkout -b feature/MiglioriaTecnica`).
