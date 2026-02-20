@@ -60,24 +60,25 @@ Puoi utilizzare l'eseguibile compilato tramite GitHub Actions (se configurato) o
 
 3.  **Avvia l'applicazione:**
     ```bash
-    python Rpo_Zero_v2.0.0.py
+    python NP_Zero_2.0.0.py
     ```
 
 ## 🛠 Struttura del Progetto
 
 Il progetto è strutturato per essere leggero e privo di configurazioni esterne:
 
-* `Np_Zero_vx.y.z.py` 🧠: Il cuore dell'applicazione. Contiene la logica della GUI (Tkinter), la gestione del database SQLite e il motore di generazione stampe.
+* `Np_Zero_x.y.z.py` 🧠: Il cuore dell'applicazione. Contiene la logica della GUI (Tkinter), la gestione del database SQLite e il motore di generazione stampe.
 * `requirements.txt` 📋: Elenco delle librerie necessarie (come `pypdf` per la manipolazione dei file).
 * `np_zero.db` 💾: Database locale creato automaticamente al primo avvio.
 * `NP_STAMPE/` 📂: Cartella generata automaticamente dove vengono archiviati i file HTML e PDF esportati.
+* `NP_EXPORT/` 📂: Cartella generata automaticamente dove vengono archiviati i file XLSX esportati.
 
 ## 📖 Come Usare (Workflow)
 
 1.  **Crea Progetto:** Inizia dalla Tab "Progetti" inserendo i dati del tuo intervento o cantiere.
 2.  **Definisci NP:** Nella Tab "Elenco NP", crea una nuova voce di prezzo associata al progetto selezionato.
 3.  **Dettaglio Costi:** Entra in "Modifica NP" per inserire le singole voci (manodopera, prodotti). Il software sommerà tutto e aggiungerà automaticamente le aliquote SG e Utili.
-4.  **Esporta:** Vai nella Tab "Stampe" per generare l'HTML e successivamente nella Tab "Convertitore PDF" per ottenere i documenti finali.
+4.  **Esporta:** Vai nella Tab "Stampe" per generare l'HTML e successivamente nella Tab "Convertitore PDF" o "Convertitore XLSX" per ottenere i documenti finali.
 
 ## 🤝 Contribuire
 
@@ -91,7 +92,7 @@ Le idee per migliorare NP Zero sono sempre benvenute! Se vuoi aggiungere una fun
 
 ## 📄 Licenza
 
-Distribuito sotto licenza **MIT**.
+Distribuito sotto licenza **GPL3**.
 
 ---
 
@@ -99,6 +100,6 @@ Distribuito sotto licenza **MIT**.
   
   Created with ❤️ by [pianozero](https://github.com/piano-zero)
   
-  *Se questo progetto ti aiuta nel tuo lavoro tecnico, lascia una ⭐️ al repository!*
+  *Se questo progetto ti aiuta nel tuo lavoro, lascia una ⭐️ al repository!*
 
 </div>
