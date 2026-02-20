@@ -1,5 +1,2 @@
 pypdf
-pandas
-openpyxl
 pyinstaller
-PyQt6
